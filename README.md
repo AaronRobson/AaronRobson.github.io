@@ -1,4 +1,2 @@
-# AaronRobson.github.io
+# [aaronrobson.github.io](https://aaronrobson.github.io)
 Github page for a mini website.
-
-[Link](https://aaronrobson.github.io)
