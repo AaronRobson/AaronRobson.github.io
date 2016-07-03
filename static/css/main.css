@@ -16,7 +16,7 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
-footer ul li a img { height: 1em }
+nav ul li a img, footer ul li a img { height: 1em }
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
