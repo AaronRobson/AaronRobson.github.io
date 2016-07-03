@@ -1,4 +1,14 @@
-. { font-family: 'Playfair Display', serif; }
+. {
+  font-family: 'Playfair Display', serif;
+
+  /*text-rendering:optimizeLegibility;*/
+  -o-font-feature-settings: 'liga' 1, 'kern';
+  -moz-font-feature-settings: 'liga=1', 'kern=1'; /* FF old */
+  -moz-font-feature-settings: 'liga' 1, 'kern';
+  -ms-font-feature-settings: 'liga' 1, 'kern';
+  -webkit-font-feature-settings: 'liga' 1, 'kern';
+  font-feature-settings: 'liga' 1, 'kern'; /* Future */
+}
 
 body { margin: 60px auto; width: 70%; }
 
