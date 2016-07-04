@@ -1,11 +1,9 @@
-. {
-  font-family: 'Playfair Display', serif;
-}
-
 body {
   margin: 60px auto; width: 70%;
 
-  /*text-rendering:optimizeLegibility;*/
+  font-family: 'Playfair Display', serif;
+
+  text-rendering:optimizeLegibility;
   -o-font-feature-settings: 'liga' 1, 'kern';
   -moz-font-feature-settings: 'liga=1', 'kern=1'; /* FF old */
   -moz-font-feature-settings: 'liga' 1, 'kern';
