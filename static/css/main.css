@@ -30,6 +30,8 @@ nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 
+footer a, footer, footer a:hover, footer a:active, footer a:visited { text-decoration: none; color: black; }
+
 nav ul li a img, footer ul li a img { height: 1em }
 
 /* Blog */
