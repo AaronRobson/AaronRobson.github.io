@@ -5,7 +5,25 @@ date:   2018-07-21 13:04:36 +0100
 categories: selenium python selenium
 ---
 
-TODO
+Found example code.
+
+Installed Selenium on Python 3 installation on laptop.
+
+pip install selenium
+Had to use pip3 as python 2 the default.
+
+Ran code it needed downloaded it and placed it in /bin/ so that it would be available.
+Itfailed due to not enough capabilities.
+
+Tried successfully on Win7 PC.
+
+Figured the problem on Trisqel Linux laptop was a pretend Firefox called Icecat (though Iceweasel and aBrowser may have the same issue.
+
+Installed real Firefox and now everything is fine.
+
+Modified example code to open www.aaronrobson.uk click the CV button and start looking at the elements that represent the links to the CV pdf.
+
+Initial of how to call a selenium build from changing GitHub io builds and how to run headless in a way that Travis can do.
 
 Jekyll also offers powerful support for code snippets:
 
