@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Selenium Python and Pretend Firefox"
-date:   2018-07-26 21:12:35 +0100
+date:   2018-07-27 21:12:35 +0100
 categories: selenium python selenium
 ---
 
