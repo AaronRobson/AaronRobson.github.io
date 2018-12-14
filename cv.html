@@ -4,9 +4,7 @@ title: Curriculum Vitæ
 permalink: /cv/
 ---
 
-<div id="cvlinks">
-  <p><a href="https://github.com/AaronRobson/AaronRobsonCV/releases/latest">Latest CV Assets</a></p>
-</div>
+<p>Please find my {{ page.title }} <a id="cvlink" href="https://github.com/AaronRobson/AaronRobsonCV/releases/latest">here</a>.
 
 <script type="text/javascript">
 
@@ -21,13 +19,7 @@ function Get(yourUrl){
 
 var json_obj = JSON.parse(Get(apiUrl));
 var downloadUrl = json_obj.assets[0]['browser_download_url'];
-var name = json_obj.assets[0]['name'];
 
-var para = document.createElement('p');
-var a = document.createElement('a');
-var linkText = document.createTextNode(name);
-a.appendChild(linkText);
-a.href = downloadUrl;
-para.appendChild(a);
-document.getElementById("cvlinks").appendChild(para);
+var linkElement = document.getElementById('cvlink');
+linkElement.setAttribute('href', downloadUrl);
 </script>
