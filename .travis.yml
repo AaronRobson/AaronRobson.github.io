@@ -1,6 +1,10 @@
 language: ruby
 rvm:
   - 2.3.1
+before_install:
+  # Upgrade to Bundler 2.0 to match the lockfile.
+  - gem update --system
+  - gem install bundler
 script:
   - gem install bundler
   - bundle exec jekyll build
