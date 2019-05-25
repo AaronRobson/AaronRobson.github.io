@@ -25,7 +25,20 @@ please run the following command to run the website locally:
 ```bash
 bundle exec jekyll serve
 ```
+or:
+```bash
+make run
+```
+
+### View in your browser
+View the website by visiting the link stated, typically it is:
+http://127.0.0.1:4000/
 
 ## Testing
 Tests are run in Travis CI using the techniques here:
 https://www.jacobtomlinson.co.uk/jekyll/2015/02/18/test-you-jekyll-blog-with-travis-ci/
+
+Run this (not supported on Windows):
+```bash
+make test
+```
