@@ -4,22 +4,8 @@ title: Curriculum Vitæ
 permalink: /cv/
 ---
 
-<p>Please find my {{ page.title }} <a id="cvlink" href="https://github.com/AaronRobson/AaronRobsonCV/releases/latest">here</a>.
+<p>
+    Please find my {{ page.title }}
+    <a id="cvlink" href="https://github.com/AaronRobson/AaronRobsonCV/releases/latest/download/aaronrobson-cv.pdf">here</a>.
+</p>
 
-<script type="text/javascript">
-
-var apiUrl = 'https://api.github.com/repos/AaronRobson/AaronRobsonCV/releases/latest';
-
-function Get(yourUrl){
-  var Httpreq = new XMLHttpRequest();
-  Httpreq.open("GET",yourUrl,false);
-  Httpreq.send(null);
-  return Httpreq.responseText;          
-}
-
-var json_obj = JSON.parse(Get(apiUrl));
-var downloadUrl = json_obj.assets[0]['browser_download_url'];
-
-var linkElement = document.getElementById('cvlink');
-linkElement.setAttribute('href', downloadUrl);
-</script>
