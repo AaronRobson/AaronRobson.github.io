@@ -1,7 +1,5 @@
 # [aaronrobson.github.io](https://aaronrobson.github.io)
 
-[![Build Status](https://travis-ci.com/AaronRobson/AaronRobson.github.io.svg?branch=master)](https://travis-ci.com/AaronRobson/AaronRobson.github.io)
-
 # Purpose
 This is a GitHub page for a mini website.
 It allows me to host my
