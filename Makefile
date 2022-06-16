@@ -9,7 +9,7 @@ clean:
 
 .PHONY: build
 build:
-	bundle exec jekyll build
+	bundle exec jekyll build --safe
 
 .PHONY: test
 test:
@@ -17,4 +17,4 @@ test:
 
 .PHONY: run
 run:
-	bundle exec jekyll serve
+	bundle exec jekyll serve --safe

@@ -28,6 +28,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-redirect-from
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -47,3 +48,6 @@ permalink: /:year/:month/:day/:title/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+whitelist:
+  - jekyll-redirect-from
