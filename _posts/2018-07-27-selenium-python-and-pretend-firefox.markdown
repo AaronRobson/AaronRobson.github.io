@@ -49,7 +49,7 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Firefox()
 
-driver.get("http://aaronrobson.uk")
+driver.get("http://www.aaronrobson.uk")
 
 cvlink = driver.find_element_by_link_text('CV')
 cvlink.click()
