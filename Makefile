@@ -6,6 +6,7 @@ all: build test
 .PHONY: clean
 clean:
 	rm -f Gemfile.lock
+	rm -rf _site/
 
 .PHONY: install-packages
 install-packages:
