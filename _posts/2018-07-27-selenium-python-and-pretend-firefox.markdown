@@ -49,7 +49,7 @@ from selenium.webdriver.common.keys import Keys
 
 driver = webdriver.Firefox()
 
-driver.get("http://www.aaronrobson.uk")
+driver.get("http://aaronrobson.uk")
 
 cvlink = driver.find_element_by_link_text('CV')
 cvlink.click()
@@ -63,5 +63,5 @@ driver.close()
 Initial of how to call a selenium build from changing GitHub io builds and how to run headless in a way that Travis can do.
 
 [selenium-python-getting-started]: http://selenium-python.readthedocs.io/getting-started.html
-[this-website]: http://www.aaronrobson.uk/
+[this-website]: http://aaronrobson.uk/
 [webrtc]: https://webrtc.org/

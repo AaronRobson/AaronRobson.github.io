@@ -8,7 +8,7 @@ and to develop a blog.
 
 ## Hosting
 The website is hosted at:
-<https://www.aaronrobson.uk/>
+<https://aaronrobson.uk/>
 
 # Developing
 
