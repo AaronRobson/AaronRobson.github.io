@@ -17,7 +17,7 @@ build:
 	bundle exec jekyll build --safe
 
 .PHONY: test
-test:
+test: build
 	bundle exec htmlproofer ./_site --only-4xx --disable-external=true --enforce-https=false
 
 .PHONY: run
